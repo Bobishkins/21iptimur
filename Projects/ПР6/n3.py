@@ -3,6 +3,7 @@ x1, y1, y2, x2 = map(int, input("Введите четыре числа от 1 �
 if (x1 < 1 or x1 > 8 or y1 < 1 or y1 > 8 or x2 < 1 or x2 > 8 or y2 < 1 or y2 > 8):
     print("Ошибка ввода")
 elif (x1 + y1) % 2 == (x2 + y2) % 2:
-    print("YES")
+
+    print("YES")        # Если клетки покрашены в один цвет, то выведите слово «YES»
 else:
-    print("NO")
+    print("NO")         # а если в разные цвета, то «NO».
