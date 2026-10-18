@@ -4,19 +4,19 @@ if pocket < 0 or pocket > 36:
     print("Ошибка, введите число в диапазоне 0-36")
 elif pocket == 0:
     print("зеленый")
-elif 1 <= pocket <= 10 and pocket % 2 == 1:
-    print("красный")
+elif 1 <= pocket <= 10 and pocket % 2 == 1:         #для карманов с 1 по 10 карманы с нечётным номером имеют красный цвет
+    print("красный")                                #карманы с чётным номером – черный;
 elif 1 <= pocket <= 10 and pocket % 2 == 0:
     print("черный")
-elif 11 <= pocket <= 18 and pocket % 2 == 1:
-    print("черный")
+elif 11 <= pocket <= 18 and pocket % 2 == 1:        #для карманов с 11 по 18 карманы с нечётным номером имеют черный цвет
+    print("черный")                                 #карманы с чётным номером – красный;
 elif 11 <= pocket <= 18 and pocket % 2 == 0:
     print("красный")
-elif 19 <= pocket <= 28 and pocket % 2 == 1:
-    print("красный")
+elif 19 <= pocket <= 28 and pocket % 2 == 1:        #для карманов с 19 по 28 карманы с нечётным номером имеют красный цвет
+    print("красный")                                #карманы с чётным номером – черный;
 elif 19 <= pocket <= 28 and pocket % 2 == 0:
     print("черный")
-elif 29 <= pocket <= 36 and pocket % 2 == 1:
-    print("черный")
+elif 29 <= pocket <= 36 and pocket % 2 == 1:        #для карманов с 29 по 36 карманы с нечётным номером имеют черный цвет
+    print("черный")                                 #карманы с чётным номером – красный.
 elif 29 <= pocket <= 36 and pocket % 2 == 0:
     print("красный")
